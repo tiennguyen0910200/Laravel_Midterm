@@ -16,7 +16,7 @@ class TourSeeder extends Seeder
 
     	DB::table('tours')->insert([
     		'name' => $faker->name,
-    		'img' => Str::random(20),
+    		'img' => "public/PhuQuoc.jfif",
     		'typetour' => Str::random(20),
     		'schelude' => Str::random(20),
     		'depart'=>$faker->numberBetween(1900,2020),
